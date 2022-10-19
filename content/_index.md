@@ -7,7 +7,7 @@ This is my final project for the **Animation for Computer Games** course, which 
 
 ## Features
 - Spawns particles on a sphere surface. The sphere position and radius can be controlled.
-- All simulation parameters, from particle count to equation constants, can be modified through the user interface in runtime.
+- All parameters, from particle count to equation constants, are modifiable via the UI in runtime.
 - The particles are rendered as spheres using instance drawing.
 - The camera can move around the scene.
 - The simulation can be paused or slowed down while the camera can still be moved.

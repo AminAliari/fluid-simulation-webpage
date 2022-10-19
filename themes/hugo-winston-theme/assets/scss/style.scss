@@ -36,9 +36,10 @@ html, body {
 body {
   background: var(--base-color);
   font-family: var(--font-family-paragraph);
+  font-size: 18px;
   color: var(--text-color);
   margin: 0;
-  padding: 20px;
+  padding: 22px;
   overflow-x: hidden;
   @include breakpoint('small') {
     padding: 50px;
