@@ -16,7 +16,8 @@ This is my final project for the **Animation for Computer Games** course, which 
 - The simulation can be paused or slowed down while the camera can still be moved.
 - The particles collide with different elements of the scene.
 - There is a push force at the mouse cursor, and its range and power can be adjusted.
-- 
+- The following videos will showcase some of these features.
+
 </br>
 </br>
 
