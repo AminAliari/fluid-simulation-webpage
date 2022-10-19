@@ -39,7 +39,7 @@ This is my final project for the **Animation for Computer Games** course, which 
 - **[1]** https://en.wikipedia.org/wiki/Smoothed-particle_hydrodynamics
 - **[2]** http://rlguy.com/sphfluidsim/
 - **[3]** https://github.com/ConfettiFX/The-Forge
-- **[4]** https://github.com/GPUOpenLibrariesAndSDKs/GPUParticles11/blob/master/gpuparticles11/src/SortLib.cpp
+- **[4]** https://github.com/GPUOpen-LibrariesAndSDKs/GPUParticles11/blob/master/gpuparticles11/src/SortLib.cpp
 - **[5]** https://en.wikipedia.org/wiki/Bitonic_sorter
 - **[6]** https://wickedengine.net/2018/05/21/scalabe-gpu-fluid-simulation/
 <!-- comment -->
