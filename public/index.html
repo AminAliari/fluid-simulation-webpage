@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.104.3" />
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Real-time SPH Fluid Simulation on GPU - Final project - COMP6311 @Concordia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://aminaliari.github.io/fluid-simulation-webpagefavicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/fluid-simulation-webpage/css/style.min.1d4ef480f52b4055f409abc9d5cc587830be80fc7867097784537879505dc30f.css">
+  
+
+  
+    <meta name="description" content="The hallway smelt of boiled cabbage and old rag mats."/>
+    <meta property="og:title" content="Real-time SPH Fluid Simulation on GPU"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://aminaliari.github.io/fluid-simulation-webpage/"/>
+    
+    <meta property="og:description" content="The hallway smelt of boiled cabbage and old rag mats."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@maminaliari"/>
+    <meta name="twitter:creator" content="@maminaliari"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-home'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-">
+                    <a href="https://aminaliari.github.io/fluid-simulation-webpage/"></a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/fluid-simulation-webpage/">Final project - COMP6311 @Concordia</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item- active">
+        <a href="/fluid-simulation-webpage/">
+          
+          <span></span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+
+  
+    <div class="author author-large">
+  <img width="50" class="author-image" src="/fluid-simulation-webpage/images/author.jpg" alt="Amin Aliari" />
+  <span class="author-name">Amin Aliari</span>
+  <span class="author-title">Master&#39;s @ÉTS</span>
+</div>
+  
+
+  <div class="intro">
+    <h1>Real-time SPH Fluid Simulation on GPU<span class="dot">.</span></h1>
+    <div class="intro-content"><p>This is my final project for the <strong>Animation for Computer Games</strong> course, which was offered by professor <a href="https://users.encs.concordia.ca/~stpopa/" target="_blank">
+    Tiberiu Popa
+  </a> at <a href="https://www.concordia.ca/" target="_blank">
+    Concordia University.
+  </a> The topic of my project is implementing <em>Smooth Particle Hydrodynamics</em> (SPH) using n-body simulation. I have implemented the governing equations described in <a href="http://rlguy.com/sphfluidsim/" target="_blank">
+    this paper.
+  </a> Everything is GPU-driven and happens in the compute passes. I have used <a href="https://github.com/ConfettiFX/The-Forge" target="_blank">
+    The Forge rendering middleware
+  </a> for running my vertex, fragment, and compute shaders on Vulkan and Directx12 APIs. Finally, I thank the author of <a href="https://wickedengine.net/2018/05/21/scalabe-gpu-fluid-simulation/" target="_blank">
+    this excellent blog post
+  </a> for explaining the GPU implementation details, such as dynamic hash grid and GPU sorting. You can check out the <a href="https://github.com/AminAliari/fluid-simulation" target="_blank">
+    source code
+  </a> for more details.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Spawns particles on a sphere surface. The sphere position and radius can be controlled.</li>
+<li>All simulation parameters, from particle count to equation constants, can be modified through the user interface in runtime.</li>
+<li>The particles are rendered as spheres using instance drawing.</li>
+<li>The camera can move around the scene.</li>
+<li>The simulation can be paused or slowed down while the camera can still be moved.</li>
+<li>The particles collide with different elements of the scene.</li>
+<li>There is a push force at the mouse cursor, and its range and power can be adjusted.</li>
+</ul>
+<h2 id="videos">Videos</h2>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/lyOMEcvFCTk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/gvYNBDEc8pE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/z8CpxWwnSv8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/nwySYnyn3e8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/VVx5kvHPdLc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+</br>
+</br>
+<h2 id="references">References</h2>
+<ul>
+<li><strong>[1]</strong> <a href="https://en.wikipedia.org/wiki/Smoothed-particle_hydrodynamics" target="_blank">
+    https://en.wikipedia.org/wiki/Smoothed-particle_hydrodynamics
+  </a></li>
+<li><strong>[2]</strong> <a href="http://rlguy.com/sphfluidsim/" target="_blank">
+    http://rlguy.com/sphfluidsim/
+  </a></li>
+<li><strong>[3]</strong> <a href="https://github.com/ConfettiFX/The-Forge" target="_blank">
+    https://github.com/ConfettiFX/The-Forge
+  </a></li>
+<li><strong>[4]</strong> <a href="https://github.com/GPUOpenLibrariesAndSDKs/GPUParticles11/blob/master/gpuparticles11/src/SortLib.cpp" target="_blank">
+    https://github.com/GPUOpenLibrariesAndSDKs/GPUParticles11/blob/master/gpuparticles11/src/SortLib.cpp
+  </a></li>
+<li><strong>[5]</strong> <a href="https://en.wikipedia.org/wiki/Bitonic_sorter" target="_blank">
+    https://en.wikipedia.org/wiki/Bitonic_sorter
+  </a></li>
+<li><strong>[6]</strong> <a href="https://wickedengine.net/2018/05/21/scalabe-gpu-fluid-simulation/" target="_blank">
+    https://wickedengine.net/2018/05/21/scalabe-gpu-fluid-simulation/
+  </a></li>
+</ul>
+<!-- comment --></div>
+  </div>
+
+  
+
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/maminaliari" title="twitter" target="_blank" rel="noopener">
+          <img src="/fluid-simulation-webpage/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/AminAliari/fluid-simulation" title="github" target="_blank" rel="noopener">
+          <img src="/fluid-simulation-webpage/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/maliari" title="linkedin" target="_blank" rel="noopener">
+          <img src="/fluid-simulation-webpage/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/fluid-simulation-webpage/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

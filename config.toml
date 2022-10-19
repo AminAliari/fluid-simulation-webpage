@@ -1,0 +1,44 @@
+baseURL = "https://aminaliari.github.io/fluid-simulation-webpage"
+languageCode = "en-us"
+theme = "hugo-winston-theme"
+themesDir = "themes"
+title = "Final project - COMP6311 @Concordia"
+paginate = 3
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@maminaliari"
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showPostsOnHomepage = false
+  addDot = true
+  addFrame = true
+  highlightColor = '#00D6A3'
+  baseColor = "#ffffff"
+  baseOffsetColor = "#eaeaea"
+  headingColor = "#1c1b1d"
+  textColor = "#4e5157"
+  dotColor = "#00D6A3"
+
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = ''
+    url = '/'
+    weight = 1
