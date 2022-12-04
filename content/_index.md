@@ -17,6 +17,7 @@ This is my final project for the **Animation for Computer Games** course, which 
 - The particles collide with different elements of the scene.
 - There is a push force at the mouse cursor, and its range and power can be adjusted.
 - The following videos will showcase some of these features.
+- The ability to take a screenshot or capture all the frames to playback.
 
 </br>
 </br>
