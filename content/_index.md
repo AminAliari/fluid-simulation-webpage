@@ -27,6 +27,8 @@ This is my final project for the **Animation for Computer Games** course, which 
 </br>
 {{< youtube LsPK87iUM8g >}}
 </br>
+{{< youtube MFVHW4kdEtc >}}
+</br>
 {{< youtube IiKzGjtUY_Q >}}
 </br>
 {{< youtube wxzp5Ye6t2A >}}
