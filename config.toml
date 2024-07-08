@@ -28,7 +28,7 @@ pygmentsUseClasses = true
   textColor = "#4e5157"
   dotColor = "#00D6A3"
 
-# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+# markdown config settings: https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
